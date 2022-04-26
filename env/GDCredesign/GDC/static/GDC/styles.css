@@ -1,0 +1,9 @@
+#ImgCar {
+    background-color: grey;
+    height: 500px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    
+}

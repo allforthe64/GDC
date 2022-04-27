@@ -3,6 +3,14 @@
     height: 500px;
 }
 
+#img-1 {
+    width: 50%;
+    height: 375px;
+    box-shadow: 5px 5px 35px black;
+}
+
+
+
 .container {
     width: 80%;
     display: inline-flex;
@@ -21,6 +29,14 @@
     color: #707070;
     text-align: center;
     font-family: "Segoe UI"
+}
+
+.text-1 {
+    font-size: 22px;
+    color: #707070;
+    font-family: "Segoe UI";
+    width: 35%;
+    margin-left: 10%;
 }
 
 .standard-button {

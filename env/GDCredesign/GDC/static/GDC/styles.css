@@ -6,10 +6,21 @@
 #img-1 {
     width: 50%;
     height: 375px;
-    box-shadow: 5px 5px 35px black;
+    box-shadow: 5px 5px 15px black;
 }
 
+iFrame {
+    height: 385px;
+    width: 640px;
+}
 
+.big-heading {
+    color: #707070;
+    font-family: 'Segoe UI';
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
 
 .container {
     width: 80%;

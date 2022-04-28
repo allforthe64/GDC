@@ -53,6 +53,14 @@ iFrame {
     font-weight: bold;
 }
 
+.small-heading {
+    color: #707070;
+    font-family: 'Segoe UI';
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
 .heading-left {
     color: #707070;
     font-family: 'Segoe UI';
@@ -63,7 +71,9 @@ iFrame {
 
 .container {
     width: 80%;
-    display: inline-flex;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .small-box {
@@ -71,6 +81,16 @@ iFrame {
     border: 1px solid #707070;
     padding: 10px;
     display: grid;
+}
+
+.small-box-1 {
+    width: 35%;
+    border: 1px solid #707070;
+    padding: 10px;
+    display: grid;
+    align-items: center;
+    border-radius: 25px;
+    background-color: #557769;
 }
 
 .box-text {
@@ -81,12 +101,27 @@ iFrame {
     font-family: "Segoe UI"
 }
 
+.small-box-img {
+    width: 200px;
+    height: 150px;
+    margin-left: 23%;
+    border: 2px solid black;
+    border-radius: 25px;
+}
+
 .text-1 {
     font-size: 22px;
     color: #707070;
     font-family: "Segoe UI";
     width: 35%;
     margin-left: 10%;
+}
+
+.text-2 {
+    font-size: 16px;
+    color: white;
+    font-family: "Segoe UI";
+    text-align: center;
 }
 
 .standard-button {

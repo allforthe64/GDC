@@ -14,6 +14,11 @@ iFrame {
     width: 640px;
 }
 
+.iFrame1 {
+    margin-left: 28%;
+    margin-bottom: 50px;
+}
+
 .big-heading {
     color: #707070;
     font-family: 'Segoe UI';

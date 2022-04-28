@@ -3,36 +3,55 @@
     height: 500px;
 }
 
+hr {
+    width: 90%; 
+    background-color: #707070; 
+    border-radius: 10px;
+    height: 2px;
+}
+
+#caro-container {
+    display: flex; 
+    justify-content: center; 
+    margin-bottom: 100px; 
+    margin-top: 30px; 
+    width: 80%;
+    background-color: #65AF91;
+    border-radius: 25px;
+    height: 375px;
+    border: .3px solid black;
+}
+
 .carousel-div {
     display: inline-flex;
+    height: 100%;
 }
 
 .car-text-div {
-    background-color: #65AF91;
     width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 3px solid black;
+    margin: 0;
 }
 
 .car-text {
     color: white;
     width: 80%;
-    font-size: 22px;
+    font-size: 30px;
     font-family: "Segoe UI";
 }
 
 #img-1 {
     width: 50%;
     height: 375px;
-    box-shadow: 5px 5px 15px black;
+    box-shadow: 10px 10px 15px black;
 }
 
 .img-2 {
     width: 50%;
-    height: 375px;
-    padding: 0;
+    height: 373px;
+    border-radius: 25px 0 0 25px;
 }
 
 iFrame {
@@ -75,6 +94,7 @@ iFrame {
     justify-content: space-around;
     align-items: center;
 }
+
 
 .small-box {
     width: 35%;
@@ -137,10 +157,14 @@ iFrame {
 
 .mini-container {
     width: 40%;
+    justify-content: top;
 }
 
 .mini-container-1 {
     width: 50%;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
 }
 
 /* Style all font awesome icons */

@@ -3,11 +3,36 @@
     height: 500px;
 }
 
+.carousel-div {
+    display: inline-flex;
+}
+
+.car-text-div {
+    background-color: #65AF91;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid black;
+}
+
+.car-text {
+    color: white;
+    width: 80%;
+    font-size: 22px;
+    font-family: "Segoe UI";
+}
 
 #img-1 {
     width: 50%;
     height: 375px;
     box-shadow: 5px 5px 15px black;
+}
+
+.img-2 {
+    width: 50%;
+    height: 375px;
+    padding: 0;
 }
 
 iFrame {

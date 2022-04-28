@@ -3,6 +3,7 @@
     height: 500px;
 }
 
+
 #img-1 {
     width: 50%;
     height: 375px;
@@ -23,6 +24,14 @@ iFrame {
     color: #707070;
     font-family: 'Segoe UI';
     text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.heading-left {
+    color: #707070;
+    font-family: 'Segoe UI';
+    text-align: left;
     font-size: 50px;
     font-weight: bold;
 }
@@ -64,6 +73,14 @@ iFrame {
     border-radius: 25px;
     border: 1px solid #707070;
     font-family: "Segoe UI"
+}
+
+.mini-container {
+    width: 40%;
+}
+
+.mini-container-1 {
+    width: 50%;
 }
 
 /* Style all font awesome icons */
